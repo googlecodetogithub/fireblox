@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Fireblox.exe" version="1.0.0.0" publicKeyToken="8c5d129ae4661d43" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Fireblox" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Fireblox.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fireblox.exe" size="22016">
+      <assemblyIdentity name="Fireblox" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wW/hyNCek0C9F83IQh05R07xizE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Josef-Center\Josef" issuerKeyHash="ab7865f0e3e82663ab7100659cdf80e0e1223e40" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gaEGpKNXQ2iSKzAyzSrmASue5IE=</DigestValue></Reference></SignedInfo><SignatureValue>BF3gfo38VFubFgzxz5VEP1Uqz+12Wey5OVZpbV8mAkAq6xEQ/mrubCPHMPoSjV41bXwIhso4+bCyQcvBka6yx6oH0lN+gLuRKSqXcVkK7edcYcLOdeONDvsBC1IRjWndGFQ0VI5aSSwKA7eaUwIwkcR/F4uCnKN7mhntHvV6mhk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uGcOgSqPCagKxeGkFSWg4ed5RLovmJ6habMx0fMNJGlpoic0j5NHkJDqTf37JUW4y+EafIFZdo2PDDqu8Gz6sbS3AFsYCZeFKdmpmvVWngI4zLr9g0/n9FXn0Sfr+xHCCSzjtaXyzz9uQViIMMBwx0bE+IgTbD7mCaVnT/PKdqc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="81e49e2b01e62acd32302b92684357a3a406a181" Description="" Url=""><as:assemblyIdentity name="Fireblox.exe" version="1.0.0.0" publicKeyToken="8c5d129ae4661d43" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Josef-Center\Josef</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>jTyhR06cFBpMM6MISscUaqMR8p4=</DigestValue></Reference></SignedInfo><SignatureValue>KuXxBtDBFAIdhxs89Of6UuXhfrnWdA0tDdoyuG6ZoaZkXffLt02Q2NKAs0sGtAnugsV/oeioz/osTwz1E4UCNvipGcgPjU9IDy6xLry2uwS6YqdbhtQ8u8U0HyDXYmw6/rdshwAX5bqcMQjc1PNKFkAb+JDNWymdyEecOwZgkzY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uGcOgSqPCagKxeGkFSWg4ed5RLovmJ6habMx0fMNJGlpoic0j5NHkJDqTf37JUW4y+EafIFZdo2PDDqu8Gz6sbS3AFsYCZeFKdmpmvVWngI4zLr9g0/n9FXn0Sfr+xHCCSzjtaXyzz9uQViIMMBwx0bE+IgTbD7mCaVnT/PKdqc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQxdFSiMmBsJdH30fBRqBjyTANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQASgBvAHMAZQBmAC0AQwBlAG4AdABlAHIAXABKAG8AcwBlAGYwHhcNMTAwNzE3MDkwNTAyWhcNMTEwNzE3MTUwNTAyWjAvMS0wKwYDVQQDHiQASgBvAHMAZQBmAC0AQwBlAG4AdABlAHIAXABKAG8AcwBlAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALhnDoEqjwmoCsXhpBUloOHneUS6L5ieoWmzMdHzDSRpaaInNI+TR5CQ6k39+yVFuMvhGnyBWXaNjww6rvBs+rG0twBbGAmXhSnZqZr1Vp4COMy6/YNP5/RV59En6/sRwgks47Wl8s8/bkFYiDDAcMdGxPiIE2w+5gmlZ0/zynanAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAtLuinsnNI64g8IV93U7tR1njEFLLKeHb64T+RZxb08HuRl7LoLh4cpRBIGwZn8qUBuWDKyTMCi7oGLn/xhmqZhp/QxZ1COzf+s/7OdwcxihhCVOZVr1JPY2JKWxVuzkO/AbFWl4vVGBqoI7Y7aJMWn0P/hlRZM2dkEYp+xHWMtQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
