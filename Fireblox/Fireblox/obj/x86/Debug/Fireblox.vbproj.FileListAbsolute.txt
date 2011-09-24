@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\bin\Debug\Fireblox.exe
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\bin\Debug\Fireblox.pdb
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\bin\Debug\Fireblox.xml
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.Form1.resources
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.Resources.resources
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.exe
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.xml
+C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.pdb
