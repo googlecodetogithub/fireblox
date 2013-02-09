@@ -9,3 +9,6 @@ C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\GenerateResource
 C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.exe
 C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.xml
 C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.pdb
+I:\Work\Programming\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.exe
+I:\Work\Programming\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.xml
+I:\Work\Programming\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.pdb
