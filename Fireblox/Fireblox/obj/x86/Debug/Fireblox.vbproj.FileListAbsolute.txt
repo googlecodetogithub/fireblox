@@ -12,3 +12,9 @@ C:\Users\Admin\Desktop\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.pdb
 I:\Work\Programming\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.exe
 I:\Work\Programming\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.xml
 I:\Work\Programming\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.pdb
+I:\Work\Programming\fireblox\Fireblox\Fireblox\bin\Debug\Fireblox.exe
+I:\Work\Programming\fireblox\Fireblox\Fireblox\bin\Debug\Fireblox.pdb
+I:\Work\Programming\fireblox\Fireblox\Fireblox\bin\Debug\Fireblox.xml
+I:\Work\Programming\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.Form1.resources
+I:\Work\Programming\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.Resources.resources
+I:\Work\Programming\fireblox\Fireblox\Fireblox\obj\x86\Debug\Fireblox.vbproj.GenerateResource.Cache
