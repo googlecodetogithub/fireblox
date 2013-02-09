@@ -28,4 +28,8 @@
 
         End Try
     End Sub
+
+    Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        WebBrowser1.Navigate("http://roblox.com/")
+    End Sub
 End Class
