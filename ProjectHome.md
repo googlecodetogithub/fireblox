@@ -1,0 +1,3 @@
+A simple yet effective browser for roblox
+To install download the latest version off the downloads page then open the .zip file and run the setup.exe file inside or for the SVN way make a folder on your desktop called Fireblox do an SVN checkout on that folder to the repertory on the source tab then run the setup.exe inside that folder (keep this folder if you want to all ways get the newest version)
+(C)Firefox is a trademark of Mozilla.inc All rights reserved
